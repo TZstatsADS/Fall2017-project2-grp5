@@ -24,7 +24,7 @@ Term: Fall 2017
 
 Try our App [Art Foodie] via Link: 
 
-Go to the "Try our app", start designing your trip!
+Go to the "Let us try", start designing your trip!
 
 Firstly, choose the type of art destination you like. Our app provides you with the the choice between museums and theaters. Markers on the map will be shown after you make your choice. Click the marker you are interested in to find its detail. Click "confirm" button if you decide go there, else you can click "Go back" to look for other destinations. 
 ![screenshot](doc/p3.png)
