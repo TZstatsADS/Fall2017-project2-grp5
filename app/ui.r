@@ -1,67 +1,21 @@
 
-
-packages.used=c("shiny", "leaflet", "ggmap",
-                "ggplot2","shinydashboard","plotly","shinyBS")
-
+packages.used=c("leaflet","geosphere","shiny","shinydashboard","shinyjs","ggplot2")
 
 # check packages that need to be installed.
-# packages.needed=setdiff(packages.used,
-#                         intersect(installed.packages()[,1],
-#                                   packages.used))
-
+packages.needed=setdiff(packages.used, 
+                        intersect(installed.packages()[,1], 
+                                  packages.used))
 # install additional packages
-# if(length(packages.needed)>0){
-#   install.packages(packages.needed, dependencies = TRUE,
-#                    repos='http://cran.us.r-project.org')
-# }
+if(length(packages.needed)>0){
+  install.packages(packages.needed, dependencies = TRUE)
+}
+
+
 library(shiny)
 library(shinydashboard)
 library(leaflet)
 library(ggplot2)
 library(shinyjs)
-
-
-
-# dashboardPage(
-#     #### Header ####
-#     dashboardHeader(title='Project2'),
-#     #### Sidebar ####
-#     dashboardSidebar(
-#        sidebarMenu(
-#          menuItem('Home', tabName='home', icon=icon('home')),
-#          menuItem('Ours', tabName='ours', icon=icon('user-circle-o')),
-#          menuItem('App manual', tabName='manual', icon=icon('question-circle-o')),
-#          menuItem('Let us try', tabName='try', icon=icon('hand-o-right'))
-#         )
-#     ),
-#     #### Body ####
-#     dashboardBody(
-#         tags$head(tags$style(HTML('
-#                   .main-header .logo{
-#                   font-family: "Georgia", Times, "Times New Roman", serif;
-#                   font-weight: bold;
-#                   font-size: 24px;
-#                   }
-#                 '))),
-#         tabItems(
-#           tabItem(tabName='home', h2('Welcome!')),
-#           tabItem(tabName='ours', h2('Hi, we are...')),
-#           tabItem(tabName='manual', h2('How to use our App:')),
-#           tabItem(tabName='try',
-#                   titlePanel('Where would you like to go?'),
-#                   br(),
-#                   br(),
-#                   fluidRow(
-#                       box(title='Your Choice:', solidHeader=TRUE, width=5,
-#                       status='primary',collasible=FALSE,
-#                       selectInput('destination', 'Destination:', choices=c('Museum','Theater'),
-#                                   multiple=FALSE, width='200px')
-#                        )
-#                   )
-#           )
-#         )
-#      )
-# )
 
 
 
@@ -96,7 +50,7 @@ shinyUI(tagList(
                                                width=200, height=110,
                                                selectInput('destination', width=200,
                                                            div(id='label_content', 'What type do you like?'),
-                                                           choices=c('En?...','Museum','Theater'), multiple=FALSE)),
+                                                           choices=c('Your choice?','Museum','Theater'), multiple=FALSE)),
                                  
                                  hidden(
                                    absolutePanel(id="Sure",
@@ -132,10 +86,11 @@ shinyUI(tagList(
                                                  top=60, right=60, left='auto', bottom='auto',
                                                  width=350, height=185,
                                                  verbatimTextOutput('recom'),
-                                                 actionButton('button4', 'Reset Restaurants', width=165,
+                                                 actionButton('button5', 'RESET ARTS', width=160,
                                                               icon=icon('hand-o-left')),
-                                                 actionButton('button5', 'Reset Arts', width=120,
+                                                 actionButton('button4', 'RESET RESTAURANTS', width=185,
                                                               icon=icon('hand-o-left'))
+                                                 
                                                  )
                                  )
                                  ))
