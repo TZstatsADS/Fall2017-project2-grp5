@@ -1,10 +1,24 @@
+
+packages.used=c("leaflet","geosphere","shiny","dplyr","shinyjs")
+
+# check packages that need to be installed.
+packages.needed=setdiff(packages.used, 
+                        intersect(installed.packages()[,1], 
+                                  packages.used))
+# install additional packages
+if(length(packages.needed)>0){
+  install.packages(packages.needed, dependencies = TRUE)
+}
+
+
 library(dplyr)
 library(leaflet)
 library(shiny)
 library(shinyjs)
-museum<-na.omit(read.csv("museums.csv"))
-theatre<-read.csv('theatre.csv')
-restaurant<- read.csv('restaurant_new.csv')
+
+museum<-na.omit(read.csv("../data/museums.csv"))
+theatre<-read.csv('../data/theatre.csv')
+restaurant<- read.csv('../data/restaurant_new.csv')
 icon_museum<-icons(iconUrl = 'icon_museum.png',iconHeight = 15, iconWidth = 15)
 icon_theatre<-icons(iconUrl = 'icon_theatre.png', iconHeight = 18, iconWidth = 18)
 icon_rest<-icons(iconUrl =  'icon_rest.png', iconHeight=25, iconWidth = 25)
@@ -28,7 +42,7 @@ shinyServer(function(input, output) {
                     popup=paste('Name:',museum$NAME, '<br/>',
                                 'Tel:', museum$TEL, '<br/>',
                                 'Zip:', museum$ZIP, '<br/>',
-                                #'Website:', a(museum$URL, href=museum$URL), '<br/>', 
+                                'Website:', a(museum$URL, href=museum$URL), '<br/>', 
                                 'Add:', museum$ADRESS1, '<br/>'
                                 )
                     )
@@ -40,7 +54,7 @@ shinyServer(function(input, output) {
                     popup=paste('Name:', theatre$NAME, '<br/>',
                                 'Tel:', theatre$TEL, '<br/>',
                                 'Zip:', theatre$ZIP, '<br/>',
-                                #'Website:', a(theatre$URL, href=theatre$URL), '<br/>',
+                                'Website:', a(theatre$URL, href=theatre$URL), '<br/>',
                                 'Add:', theatre$ADDRESS1, '<br/>'))
      }
     
