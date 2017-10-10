@@ -42,7 +42,7 @@ shinyServer(function(input, output) {
                     popup=paste('Name:',museum$NAME, '<br/>',
                                 'Tel:', museum$TEL, '<br/>',
                                 'Zip:', museum$ZIP, '<br/>',
-                                #'Website:', a(museum$URL, href=museum$URL), '<br/>', 
+                                'Website:', a(museum$URL, href=museum$URL), '<br/>', 
                                 'Add:', museum$ADRESS1, '<br/>'
                                 )
                     )
@@ -54,7 +54,7 @@ shinyServer(function(input, output) {
                     popup=paste('Name:', theatre$NAME, '<br/>',
                                 'Tel:', theatre$TEL, '<br/>',
                                 'Zip:', theatre$ZIP, '<br/>',
-                                #'Website:', a(theatre$URL, href=theatre$URL), '<br/>',
+                                'Website:', a(theatre$URL, href=theatre$URL), '<br/>',
                                 'Add:', theatre$ADDRESS1, '<br/>'))
      }
     
