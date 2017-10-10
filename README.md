@@ -21,7 +21,8 @@ Term: Fall 2017
 + **Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
 
 + **App Operation Instruction**: 
-+ **Try our App [Art Foodie] via Link: **
+
+**Try our App [Art Foodie] via Link: **
 
 Go to the "Try our app", start designing your trip!
 
