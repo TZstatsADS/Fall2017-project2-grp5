@@ -22,7 +22,7 @@ Term: Fall 2017
 
 + **App Operation Instruction**: 
 
-**Try our App [Art Foodie] via Link: **
+Try our App [Art Foodie] via Link: 
 
 Go to the "Try our app", start designing your trip!
 
