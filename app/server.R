@@ -2,9 +2,9 @@ library(dplyr)
 library(leaflet)
 library(shiny)
 library(shinyjs)
-museum<-na.omit(read.csv("../data/museums.csv"))
-theatre<-read.csv('../data/theatre.csv')
-restaurant<- read.csv('../data/restaurant_new.csv')
+museum<-na.omit(read.csv("museums.csv"))
+theatre<-read.csv('theatre.csv')
+restaurant<- read.csv('restaurant_new.csv')
 icon_museum<-icons(iconUrl = 'icon_museum.png',iconHeight = 15, iconWidth = 15)
 icon_theatre<-icons(iconUrl = 'icon_theatre.png', iconHeight = 18, iconWidth = 18)
 icon_rest<-icons(iconUrl =  'icon_rest.png', iconHeight=25, iconWidth = 25)
@@ -143,7 +143,7 @@ shinyServer(function(input, output) {
            
            new_df<- reactive({
              all_rest<-add_to_df()
-             top15<-head(all_rest, 15) %>% arrange(YELP.STAR)
+             top15<-head(all_rest, 15) %>% arrange(desc(YELP.STAR))
              top6<- head(top15, 6)
              top6
            })
@@ -177,6 +177,13 @@ shinyServer(function(input, output) {
      observeEvent(input$button4,{
        leafletProxy('map') %>% clearMarkers()
        hide('Recom')
+     })
+     
+     observeEvent(input$button5,{
+       leafletProxy('map') %>% clearMarkers()
+       hide('Recom')
+       hide('Resta')
+       hide('Sure')
      })
 })
 

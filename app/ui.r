@@ -130,10 +130,13 @@ shinyUI(tagList(
                                                  class='panel-default',
                                                  id='Recom', draggable=TRUE, fix=TRUE, 
                                                  top=60, right=60, left='auto', bottom='auto',
-                                                 width=350, height=182,
+                                                 width=350, height=185,
                                                  verbatimTextOutput('recom'),
-                                                 actionButton('button4', 'Reset', width=100,
-                                                              icon=icon('hand-o-left')))
+                                                 actionButton('button4', 'Reset Restaurants', width=165,
+                                                              icon=icon('hand-o-left')),
+                                                 actionButton('button5', 'Reset Arts', width=120,
+                                                              icon=icon('hand-o-left'))
+                                                 )
                                  )
                                  ))
               
