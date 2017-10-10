@@ -16,7 +16,10 @@ Term: Fall 2017
 
 ![screenshot](doc/p1.png)
 
-+ **Project summary**: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
++ **Background**: There are so many restaurants guide applications which you can download online, for example, Yelp, the most well-known restaurants recommendation application all over the North America. However, when we want to search for one type restaurant near a specific spot, it can’t give us the most efficient result on the ground of advertisements, etc. Another, museum and theaters in New York City attract tons of tourists come here every year. If there is an App which can give art lovers the most suitable advice about where they should dine around museums and theaters in New York, it’ll be more convenient for their travel. Our App is created for that.
+
++ **Project summary**: Our project is to show the restaurants near museums or theaters in New York that perfectly match users’ requirements. By choosing destination, users can decide where they want to have meals nearby, museums or theaters. Then they can choose what type of food they are looking for and rank them by grade or distance. Lastly, the selected restaurants will be shown.
+
 
 + **Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
 
