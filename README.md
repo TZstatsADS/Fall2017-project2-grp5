@@ -17,7 +17,8 @@ Term: Fall 2017
 + **Project summary**: Our project is to show the restaurants near museums or theaters in New York that perfectly match users’ requirements. By choosing destination, users can decide where they want to have meals nearby, museums or theaters. Then they can choose what type of food they are looking for and rank them by grade or distance. Lastly, the selected restaurants will be shown.
 
 
-+ **Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
++ **Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement.
+Yajie Guo: gave more detailed ideas about how to design this App, decided the name of App, worked for UI design for Home, About us and App manual and CSS of all these parts as well, also responsible for readme writeup except for the specific steps explaination part with pictures, modified Qian's presentation file.
 
 + **App Operation Instruction**: 
 

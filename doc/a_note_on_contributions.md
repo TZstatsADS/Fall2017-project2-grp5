@@ -11,10 +11,12 @@ Below is an example. If no contribution statement is provided, we will insert a 
 ---
 Sample project README statement.
 
-Project xxx
+Project 2: Open Data App - an RShiny app development project
 
-Team members: Avi Bond, Comma Deed, En Funn, Gem Hon
+Team members: Tiantian Chen, Yajie Guo, Stephanie Park, Qian Shi
 
-Summary: In this project, we developed a new method and improved the classification accuracy for images of cats and dogs to 99.9%
+Summary: Our project is to show the restaurants near museums or theaters in New York that perfectly match users’ requirements. By choosing destination, users can decide where they want to have meals nearby, museums or theaters. Then they can choose what type of food they are looking for and rank them by grade or distance. Lastly, the selected restaurants will be shown.
 
-[Contribution Statement] AB, CD, EF and GH designed the study. AB and CD developed baseline classification model for evaluation. EF and GH explored feature engineering for improving the baseline model. AB, EF and GH discussed and designed the model evaluation protocol. CD carried out the computation for model evaluation. All team members contributed to the GitHub repository and prepared the presentation. All team members approve our work presented in our GitHub repository including this contribution statement.
+
+[Contribution Statement] 
+Yajie Guo: gave more detailed ideas about how to design this App, decided the name of App, worked for UI design for Home, About us and App manual and CSS of all these parts as well, also responsible for readme writeup except for the specific steps explaination part with pictures, modified Qian's presentation file.
