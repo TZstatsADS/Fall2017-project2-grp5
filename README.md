@@ -2,16 +2,15 @@
 
 ### [Project Description](doc/project2_desc.md)
 
-## Project Title Lorem ipsum dolor sit amet
+## Project Title: Art Foodie: Find your favorite restaurants around museums and theaters in New York
 Term: Fall 2017
 
 + Team 5
-+ Team members
-	+ team member 1
-	+ team member 2
-	+ team member 3
-	+ team member 4
-	+ team member 5
++ Team members(Alphabetical ordering of family name)
+	+ Tiantian Chen
+	+ Yajie Guo
+	+ Stephanie Park
+	+ Qian Shi
 + **Projec title**: 
 
 ![screenshot](doc/p1.png)
