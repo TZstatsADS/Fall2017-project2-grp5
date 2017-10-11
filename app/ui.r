@@ -1,4 +1,3 @@
-
 packages.used=c("leaflet","geosphere","shiny","shinydashboard","shinyjs","ggplot2")
 
 # check packages that need to be installed.
