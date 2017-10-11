@@ -22,7 +22,7 @@ Yajie Guo: gave more detailed ideas about how to design this App, decided the na
 
 + **App Operation Instruction**: 
 
-Try our App [Art Foodie] via Link: 
+Try our App [Art Foodie] via Link: https://qianshi58.shinyapps.io/fall2017-proj2-grp5/
 
 Go to the "Let us try", start designing your trip!
 

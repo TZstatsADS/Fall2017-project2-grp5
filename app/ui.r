@@ -1,8 +1,8 @@
 packages.used=c("leaflet","geosphere","shiny","shinydashboard","shinyjs","ggplot2")
 
 # check packages that need to be installed.
-packages.needed=setdiff(packages.used, 
-                        intersect(installed.packages()[,1], 
+packages.needed=setdiff(packages.used,
+                        intersect(installed.packages()[,1],
                                   packages.used))
 # install additional packages
 if(length(packages.needed)>0){
