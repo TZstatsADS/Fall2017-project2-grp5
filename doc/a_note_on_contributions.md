@@ -20,3 +20,5 @@ Summary: Our project is to show the restaurants near museums or theaters in New 
 
 [Contribution Statement] 
 Yajie Guo: gave more detailed ideas about how to design this App, decided the name of App, worked for UI design for Home, About us and App manual and CSS of all these parts as well, also responsible for readme writeup except for the specific steps explaination part with pictures, modified Qian's presentation file.
+
+Qian and Tiantian: built the framework of the app, designed UI layout, customized UI style using CSS, collected and cleaned the raw datasets, totally completed the forth part 'Let us try', including designing the interactive interface, implementing all functions based on data filtering and analyzing, debugging, conducting product testing and improving the app with the feedback of some users. Qian gave the presentation in class. Tiantian write up the operation instruction part in readme file.
