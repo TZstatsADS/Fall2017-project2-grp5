@@ -55,20 +55,14 @@ input[type="number"] {
   font-weight: 900;
   font-size: 20px;
    color: #017156;
+   line-height: 2.8;
 }
-
-#text_content1{
+#title_content4{
   font-family:fantasy;
   font-weight: 900;
   font-size: 20px;
    color: #017156;
-}
-
-#text_content2{
-  font-family:fantasy;
-  font-weight: 900;
-  font-size: 20px;
-   color: #017156;
+   line-height: 2.8;
 }
 
 #label_content {
@@ -97,7 +91,7 @@ input[type="number"] {
 .panel-default{
   border-color:#ffffff;
   background-color:#ffffff;
-  opacity:0.8;
+  opacity:0.7;
 }
 
 .btn-defalt{

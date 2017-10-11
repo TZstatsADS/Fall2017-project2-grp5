@@ -30,13 +30,15 @@ shinyUI(tagList(
                              icon=icon('home'),
                              div(id='bg1'),
                              mainPanel(img(src='bg1.jpg'))),
-                    tabPanel(title='About us', 
+                    tabPanel(title='About us',
                              icon=icon('user-circle-o'),
-                             h2(div(id='text_content1','Hi there!This application is created by Tiantian Chen, Qian Shi, Yajie Guo and Stephanie Park. We are students from Columbia University helping art-lover to find best place to dine around major museums and threaters in New York City. Hope our App can help you find restaurant which perfectly matches your preferences. Enjoy your meal, Art Foodie!'))),
-                    tabPanel(title='App manual',  
+                             absolutePanel(div(id='title_content3','Hi there!This application was created by Tiantian Chen, Qian Shi, Yajie Guo and Stephanie Park. We are students from Columbia University who would like to help art-lovers find the best place to dine around major museums and theaters in New York City. Hope our App can help you find restaurants which match your preferences best. Enjoy your meal, Art Foodie!'))),
+                    
+                    tabPanel(title='App manual',
                              icon=icon('question-circle-o'),
-                             #h2('How to use our App: Firstly, you need to choose destination of your travel---museum or threater? After clicking sure, you can choose what type of food you want, such as American, Italian, etc. Then let us rank restaurants by grade or distance. After all these steps, a couple of restaurants which perfectly match your preferences will be shown. Finally, choose one and meal is ready, enjoy!')
-                             h2(div(id='text_content2','How to use our App: Firstly, you need to choose destination of your travel---museum or threater? After clicking sure, you can choose what type of food you want, such as American, Italian, etc. Then let us rank restaurants by grade or distance. After all these steps, a couple of restaurants which perfectly match your preferences will be shown. Finally, choose one and meal is ready, enjoy!') ))             ,
+                             absolutePanel(div(id='title_content4','How to use our App: Firstly, you need to choose destination of your travel---museum or theater? After selecting sure, you can choose what type of food you want, such as American, Italian, etc. Then we rank restaurants by grade or distance. After all these steps, a couple of restaurants which match your preferences will be shown. Finally, choose one and you are ready to go, enjoy!'),
+                                           class='panel-default')),
+                    
                     tabPanel(title='Let us try',
                              id='tab3',
                              icon=icon('hand-o-right'),
