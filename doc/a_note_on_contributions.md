@@ -19,4 +19,4 @@ Summary: Our project is to show the restaurants near museums or theaters in New 
 
 
 [Contribution Statement] 
-Yajie Guo: gave more detailed idea about how to design this App, decided the name of App, worked for UI design for Home, About us and App manual and CSS of all these parts as well, also responsible for readme writeup except specific steps explaination part with pictures, modified Qian's presentation file.
+Yajie Guo: gave more detailed ideas about how to design this App, decided the name of App, worked for UI design for Home, About us and App manual and CSS of all these parts as well, also responsible for readme writeup except for the specific steps explaination part with pictures, modified Qian's presentation file.
