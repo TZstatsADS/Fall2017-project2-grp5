@@ -74,18 +74,6 @@ shinyServer(function(input, output) {
      leafletProxy('map') %>% setView(lng=-73.93, lat=40.77, zoom=12)
    })
    
-   
-     observe({
-       click<- input$map_marker_click
-       if(is.null(click))
-         return()
-       ## use click to access the zoom and set the view according this marker
-       leafletProxy('map') %>% setView(lng=click$lng,
-                                       lat=click$lat,
-                                       zoom=13)
-
-   })
-    
      observeEvent(input$map_marker_click, {
        show('Sure')
      })
